@@ -18,10 +18,7 @@ import { namespace } from "vuex-class";
 const counterModule = namespace("counter");
 
 @Options({
-  name: "Counter",
-  props: {
-    msg: String
-  }
+  name: "Counter"
 })
 export default class Counter extends Vue {
   @Prop({ type: String })
@@ -40,10 +37,3 @@ export default class Counter extends Vue {
   private subtract: any;
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-</style>
