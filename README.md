@@ -1,4 +1,5 @@
 # vue-typescript-decorators
+The purpose of this project is to demostrate how to use Typescript and Decorators in a Vue/Vuex project.
 
 ## Project setup
 ```
@@ -20,5 +21,5 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Blog post
+See [blog post](https://davidjamesherzog.github.io/2020/12/30/vue-typescript-decorators/).

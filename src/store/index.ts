@@ -1,8 +1,9 @@
 import { createStore } from "vuex";
+import Counter from "./counter";
 
-export default createStore({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {}
-});
+const store = createStore({});
+
+// tslint:disable-next-line:no-unused-expression
+new Counter({ store, name: "counter" });
+
+export default store;
