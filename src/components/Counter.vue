@@ -28,12 +28,12 @@ export default class Counter extends Vue {
   private counter!: number;
 
   @counterModule.Getter("count")
-  private getCounter: any;
+  private getCounter!: () => number;
 
   @counterModule.Action
-  private add: any;
+  private add!: () => Promise<void>;
 
   @counterModule.Action
-  private subtract: any;
+  private subtract!: () => Promise<void>;
 }
 </script>
